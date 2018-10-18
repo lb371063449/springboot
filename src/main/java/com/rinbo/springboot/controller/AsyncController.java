@@ -74,7 +74,7 @@ public class AsyncController {
             @Override
             public void run() {
                 try {
-                    Thread.sleep(5* 1000l);
+                    Thread.sleep(5* 1000L);
                     result.setResult("i am agree");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
